@@ -39,11 +39,11 @@ body {
 
 .flex-item p {
     margin: 0;
-    color: #333;
+    color: #282727;
     font-size: 16px;
 }
 
 .flex-item:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.10);
+    box-shadow: 0 4px 16px rgb(44, 44, 44);
 }
