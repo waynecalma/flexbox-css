@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    background-color: #e8e8e8;
+}
+
+/* MAIN CONTAINER */
+.flex-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 920px;               
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+}   
+
+/* CARDS */
+.flex-item {
+    flex: 0 0 250px;                 
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.607);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.flex-item img {
+    width: 100%;
+    height: 150px;                    
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.flex-item p {
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+}
+
+.flex-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
